@@ -21,6 +21,9 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="../static/css/style.css" rel="stylesheet">
+
+    {% comment %} icon  {% endcomment %}
+    {% block head %} <link rel="shortcut icon" type="image/x-icon" href="{{ setting.icon.url }}"> {% endblock %}
 </head>
 
 <body>
@@ -226,7 +229,7 @@
                 <!-- Size End -->
             </div>
             <!-- Shop Sidebar End -->
-            
+
             <!-- Shop Product Start -->
             <div class="col-lg-9 col-md-12">
                 <div class="row pb-3">
