@@ -30,10 +30,10 @@ urlpatterns = [
     path('product/', include('product.urls')),
 
 #     Blog linkleri
-
     path('hakkimizda/', include('home.urls'), name="hakkimizda"),
     path('referanslar/', include('home.urls'), name="referanslar"),
     path('iletisim/', include('home.urls'), name="iletisim"),
+    path('detail/', include('home.urls'), name="detail"),
     # path("referanslar/", home.views.referanslar name="referanslar"),
     # path("iletisim/", home.views.iletisim name="iletisim"),
 

@@ -29,3 +29,8 @@ def shop(request):
     setting = Setting.objects.get(pk=1)
     context = {'setting': setting, 'page': 'shop'}
     return render(request, 'shop.html', context)
+
+def detail(request):
+    setting = Setting.objects.get(pk=1)
+    context = {'setting': setting, 'page': 'detail'}
+    return render(request, 'detail.html', context)

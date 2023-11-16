@@ -7,6 +7,7 @@ urlpatterns = [
     path("referanslar/", views.referanslar, name="referanslar"),
     path("iletisim/", views.iletisim, name="iletisim"),
     path("shop/", views.shop, name="shop"),
+    path("detail/", views.detail, name="detail"),
     # path("urunler/", views.urunler, name="urunler"),
     # path("category/<int:id>/<slug:slug>", views.categoryProducts, name="categoryProducts"),
 ]
